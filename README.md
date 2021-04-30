@@ -1,14 +1,14 @@
-# Ruby Search Enumerators
+# Search Enumerables
 
-## Objectives
+## Learning Goals
 
-1. Understand return values for enumerators.
-2. Use a truthy or falsey evaluation in a block.
-3. Use `#select` to select matching elements from a collection based on a block.
-4. Use `#detect` to find a matching element from a collection based on a block.
-5. Use `#reject` to filter matching elements from a collection based on a block. 
+- Understand return values for enumerators.
+- Use a truthy or falsey evaluation in a block.
+- Use `#select` to select matching elements from a collection based on a block.
+- Use `#detect` to find a matching element from a collection based on a block.
+- Use `#reject` to filter matching elements from a collection based on a block. 
 
-## Overview
+## Introduction
 
 Every method in ruby must return a value. When we iterate or enumerate over a collection with `#each`, the return value is always the original collection. This is an example of a static return value, no matter what we do with `#each`, it will always return the same object that received the call to `#each`.
 
@@ -97,5 +97,3 @@ Notice also that `#detect` will always return a single object where `#select` wi
 ## Video Review 
 
 * [Yield and Enumerables](https://www.youtube.com/watch?v=t2A6xPbh0I8&feature=youtu.be)
-
-
